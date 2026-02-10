@@ -11,10 +11,14 @@ header {
   width: 68px;
   height: 64px;
 }
-.navigation-menu{
+.navigation-menu {
   margin-top: 24px;
 }
+
+imput[type="chechbox"]:checked ~ nav {
+  display: block;
+}
+
 nav {
   display: none;
 }
-
