@@ -1,3 +1,10 @@
+.offer-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
 .cards {
   color: var(--text-secundary-color);
   background-color: black;
@@ -45,10 +52,17 @@
 .cards.manaus {
   background: url(../img/bg-card-manaus.jpg) no-repeat;
 }
-
+@media screen and (min-width: 768px) {
+  .offer-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 @media screen and (min-width: 1024px) {
   .cards {
-    width: 588px;
+    width: 420px;
     height: 308px;
   }
   .cards header h3 {
@@ -57,4 +71,19 @@
   .cards header span {
     font-size: 32px;
   }
+}
+
+@media screen and (min-width: 1440px) {
+  .cards{
+    width: 588px;
+  }
+  
+}
+
+@media screen and (min-width: 1920px) {
+  .offer-cards{
+    width: 1250px;
+    margin: 0 auto;
+  }
+  
 }
