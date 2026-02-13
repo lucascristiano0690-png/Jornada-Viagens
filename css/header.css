@@ -1,4 +1,4 @@
-header {
+h.main-eader {
   background-color: var(--background-tentiary-color);
   display: flex;
   flex-direction: row;
@@ -75,11 +75,11 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
-    padding: 38px 125px;    
+  .main-header {
+    padding: 38px 125px;
   }
   .logo {
-    width: 260px ;
+    width: 260px;
     height: 64px;
   }
   .img-desktop {
@@ -93,7 +93,7 @@ nav {
   }
 }
 @media screen and (min-width: 1920px) {
-  header {
+  .main-header {
     padding: 38px 160px;
   }
 }
