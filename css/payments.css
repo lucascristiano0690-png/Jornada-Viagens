@@ -1,0 +1,61 @@
+.payments .image-gallery {
+  display: grid;
+  grid-column: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.payments .content-container .image-gallery .image.first {
+  background: url(../img/malas.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.second {
+  background: url(../img/passaporte.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.thirdy {
+  background: url(../img/ponte.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+ 
+  .payments .content-container .image-gallery .image.first {
+    background: url(../img/malas-tab.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.second {
+    background: url(../img/passaporte-tab.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.thirdy {
+    background: url(../img/ponte-tab.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .colspan-2 {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    justify-content: space-between;
+  }
+  .payments .content-container .text-content {
+    width: 360px;
+  }
+  .payments .content-container .image-gallery {
+    width: 790px;
+  }
+   .payments .content-container {
+    display: flex;
+  }
+}
