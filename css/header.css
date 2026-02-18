@@ -1,4 +1,4 @@
-h.main-eader {
+.main-header {
   background-color: var(--background-tentiary-color);
   display: flex;
   flex-direction: row;
