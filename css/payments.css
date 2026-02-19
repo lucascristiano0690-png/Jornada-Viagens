@@ -22,6 +22,22 @@
   background-size: cover;
 }
 
+.payments .content-container .image-gallery .image.pack-first {
+  background: url(../img/pack-templo-mob.png) no-repeat center;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.pack-second {
+  background: url(../img/pack-tokyo-tower-mob.png) no-repeat center;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.pack-thirdy {
+  background: url(../img/pack-pessoa-mob.png) no-repeat center;
+  background-size: cover;
+}
+
+
 .payments .content-container .image-gallery .colspan-2 {
   grid-column: span 2;
 }
@@ -37,6 +53,21 @@
   }
   .payments .content-container .image-gallery .image.thirdy {
     background: url(../img/ponte-tab.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .colspan-2 {
+    grid-column: span 2;
+  }
+   .payments .content-container .image-gallery .image.pack-first {
+    background: url(../img/pack-templo-tab.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.pack-second {
+    background: url(../img/pack-tokyo-tower-tab.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.pack-thirdy {
+    background: url(../img/pack-pessoa-tab.png) no-repeat center;
     background-size: cover;
   }
   .payments .content-container .image-gallery .colspan-2 {

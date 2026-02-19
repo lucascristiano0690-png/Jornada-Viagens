@@ -7,6 +7,7 @@
   padding: 38px 48px;
   position: relative;
 }
+
 .logo {
   display: inline-block;
   width: 68px;
@@ -49,6 +50,10 @@ nav {
   text-decoration: none;
   font-weight: var(--menu-text-weight);
   font-size: 24px;
+}
+
+.list-links li a.active {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
